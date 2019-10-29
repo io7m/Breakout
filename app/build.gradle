@@ -1,0 +1,17 @@
+android {
+  defaultConfig {
+    versionName = "1.0.0"
+    versionCode = 100
+    setProperty("archivesBaseName", "breakout-${versionName}-${versionCode}")
+  }
+  lintOptions {
+    checkReleaseBuilds false
+  }
+}
+
+dependencies {
+  implementation libraries.androidXAppCompat
+  implementation libraries.kotlinStdlib
+  implementation libraries.logbackAndroidClassic
+  implementation libraries.slf4j
+}

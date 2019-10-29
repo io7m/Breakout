@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="Blank" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@drawable/blank</item>
+  </style>
+</resources>

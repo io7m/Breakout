@@ -1,0 +1,24 @@
+#
+# Android Studio 2.2.3 Defaults
+#
+
+**/build
+*.iml
+.DS_Store
+.externalNativeBuild
+.gradle
+.idea
+/captures
+/local.properties
+
+# Ignore .so files
+**/jniLibs
+
+#
+# Certificates and API Keys
+#
+*.jks
+
+# backup files
+*~
+
